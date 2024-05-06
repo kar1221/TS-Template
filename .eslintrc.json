@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": [
+    "prettier",
+    "airbnb-base",
+    "airbnb-typescript/base"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "files": ["./src/**/*.ts", "./src/**/*.js"]
+}
